@@ -1,9 +1,6 @@
 html{
   	scroll-behavior: smooth;
 }
-:root {
-    font-family: 'Roboto', sans-serif;
-}
 body {
   	height: 100%;
   	font-family: 'Heebo', sans-serif;
@@ -563,8 +560,7 @@ form {
 .footer-box {
     background-color: #30475e;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding: 2% ;
     font-size: 10rem 10rem;
     color:white;
 }

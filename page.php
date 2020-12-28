@@ -28,7 +28,7 @@ if(!mysqli_query($conn,$sql2))
 				<div class="nav-links">
 		            <a href="search.php">Search</a>
 		            <a href="login.php">Add New</a>
-		            <a href="upload1.php"><button class="button">Upload</button></a>
+		            <a href=""><button class="button">Upload</button></a>
 	            </div>
 			</div>
         </nav>
@@ -37,9 +37,9 @@ if(!mysqli_query($conn,$sql2))
 <header>
 	<div class="header-img"><img src="images/back.jpg" alt=""></div>
 	<div class="header-title"><h1>Spot your Favorite Celebrity</h1>
-		<!-- <div class="sig-tag">
+		<div class="sig-tag">
 			<div class="sig-line"></div>Something Something Bleh Bleh
-		</div> -->
+		</div>
 		<a href="#celebs" class="scroll-btn"><span></span>Scroll</a>
 	</div>
 </header><br>
@@ -74,7 +74,7 @@ if(!mysqli_query($conn,$sql2))
     </div>
 <section id="celebs" class="total-list">
 	<div class="sep-line"></div>
-	<p class="section-title">CELEBRITIES WE HAVE</p>
+	<p class="section-title">title</p>
 	<div class="celebs-list">
 		<?php
 		$sql=mysqli_query($conn,"SELECT * FROM celebrities");
@@ -109,7 +109,7 @@ if(!mysqli_query($conn,$sql2))
 	</div>
 </section>
 </div>
-</div><br>
+</div>
 <footer class="footer-box">
     <section class="footer-img">
         <h1>ABOUT US</h1>
